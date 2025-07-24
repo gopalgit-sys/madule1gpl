@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav a{
+    color:black !important;
+    text-decoration: none;
+    
+}
+.navbar-brand{
+    font-size: 2em;
+    color:rgb(22, 6, 241) !important;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 5px 10px;
+ }
+ .navbar-nav{
+    margin-right: 30px;
+    
+}
+
+.navbar-nav a:hover{
+    color: rgb(26, 244, 10) !important;
+} 
+
+/* ..........  home section  .......... */
+
+.home-text{
+    color:black;
+}
+.home-img{
+    margin-top: 40px !important;
+}
+.download-btn:hover{
+    background-color: violet!important;
+}
+.ab-btn:hover{
+    background-color: rgb(39, 247, 7);
+}
+
+/* ..........  about section  .......... */
+
+.card-img-center{
+    height: 23em;
+    width: 100%;
+    padding-top: 30px;
+}
+.about h5{
+    color: rgb(8, 8, 244) !important;
+}
+.mail{
+    color: rgb(140, 255, 0) !important;
+    font-size: 40px;
+}
+.btn{
+    width: 150px;
+}
+.per-info{
+    line-height: 20px;
+    color: yellowgreen;
+}
+.card-body{
+    background-color: rgb(224, 207, 185);
+}
+
+/* .......... projects section  .......... */
+
+.project-title{
+    color: black;
+}
+.pro-descrip{
+    text-align: justify;
+    text-indent: 50px;
+}
+.pro-card{
+    min-height: 480px;
+    background-color: rgb(249, 255, 195);
+}
+
+/* ..........  skills section  .......... */
+
+.skills-title{
+    color: black;
+}
+.skills-card{
+    min-height: 235px;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: .5s;
+}
+.skills-card:hover{
+    background-color: rgb(40, 36, 36);
+    transform: scale(1.05);
+}
+.skill-heading{
+    color: turquoise ;
+}
+
+.skill-content{
+    color: blue;
+}
+
+
+/* .......... resume download section  ......... */
+
+.download-btn{
+    width: 250px;
+    transition: 0.5s;
+    border: none;
+    background-color: rgb(17, 28, 242);
+}
+.download-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(26, 235, 7) !important;
+}
+
+/* ..........  contact form section  .......... */
+
+.contact-title{
+    color: black;
+}
+.contact{
+    color: blue;
+}
+/*   ........  footer section  ........   */
+.card-footer{
+    color: white;
+}

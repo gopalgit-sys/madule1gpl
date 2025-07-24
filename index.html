@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>CREATING A PORTFOLIO USING HTML, CSS & BOOTSTRAP</title>
+    
+</head>
+<body>
+    <!-- ..........  navbar section  .......... -->
+     <header>
+      <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Portfolio</a>
+   <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="material-symbols-outlined">menu</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-linkh"  href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linka" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linkp" href="#project">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-linkp" href="#skills">Skills</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-linkc" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+<!-- ..........  home section  ......... -->
+<section class="home">
+    <div class="container">
+        <div class="row py-5 home-con justify-content-center">
+            <div class="col-lg-8">
+                <div class="home-text mt-5">
+                  <h2>Hi!</h2>
+                  <h1>I'am <span style="color: rgb(10, 182, 234);">Gopalakrishnan</span></h1>
+                  <p class="fs-4">Full Stock Developer</p>
+                </div>
+                <div class="home-btn">
+                  <a href="media/Gopalakrishnan R_RESUME.pdf" download="" class="btn download-btn btn-primary mt-2" >Download CV</a>               
+                  <a href="about.html" class="ab-btn btn btn-warning mt-2">About me</a>
+                </div>             
+               
+            </div>
+            <div class="col-lg-4">
+                <div class="home-img text-center mt-2 col-sm-3">
+                    <img src="media/dev ani image.jpg" alt="image not found" width="400px">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--   .......... about section ..........   -->
+
+<div class="container about py-3" id="about">
+  <div class="row">
+    <div class="col-12">
+      <div class="about-title text-center mt-5">
+        <h1 class="fw-bold">About</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-3">
+    <div class="card align-content-center" style="width: 18rem; border-radius: 5px;">
+      <img src="media/gopal image.jpeg" class="card-img-center " alt="...">
+    </div>
+  <div class="card text-center" style="width: 40rem; border-radius: 5px;">
+    <div class="card-body">
+      <h5 class="card-title text-center fs-2"><span style="color:turquoise;">Personal Details</span></h5>
+      <h5 class="mt-2"><span class="per-info">Name:</span><br>Gopalakrishnan R</h5>
+      <h5 class="mt-2"><span class="per-info">Date of Birth:</span><br>27/11/1998</h5>
+      <h5 class="mt-2"><span class="per-info">Native:</span><br>Erode</h5>
+      <h5 class="mt-2"><span class="per-info">Contact no. :</span><br>+91 9655832293</h5>
+      <h5 class="mt-2"><span class="per-info">E-mail:</span><br>gopalcivil44@gmail.com</h5>
+      <a href="about.html" class="btn btn-danger mt-3">More</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--..........projects setion..........-->
+
+<div class="container py-3" id="project">
+  <div class="row">
+    <div class="col-12">
+      <div class="project-title text-center mt-5">
+        <h1 class="fw-bold">Project</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3">
+  <div class="col-lg-6 mb-3 mt-3 mb-sm-0">
+    <div class="card pro-card">
+      <div class="card-body">
+        <div class="pro-img text-center mb-5">
+          <img style="width: 300px; height: 200px;" src="media/pro1 image.jpg" class="card-img-top" alt="..." >
+        </div>
+        <h5 class="card-title text-center fw-bold">TASK MANAGER APP</h5>
+        <p class="card-text pro-descrip">A simple to-do list app using JavaScript and local storage.
+          Features include add/delete tasks and save data on refresh.To-do lists help break down large 
+          goals into smaller, manageable tasks,
+             making it  easier to track progress and avoid feeling overwhelmed
+        </p>
+        <div class="pro-btn text-center mt-4">
+          <a href="project1.html" target="_blank" class="btn btn-primary">View more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 mt-3">
+    <div class="card pro-card">
+      <div class="card-body">
+        <div class="pro-img text-center">
+          <img style="width: 300px;" src="media/pro2 image.jpg" class="card-img-top" alt="..." >
+        </div>
+        <h5 class="card-title text-center fw-bold mt-4">PERSONAL PORFOLIO WEBSITE</h5>
+        <p class="card-text pro-descrip mt-3">A responsive one-page portfolio built with HTML, CSS, And JavaScript.
+          Showcases personal skills,projects andcontact information.A portfolio provides concrete evidence of your
+          abilities, talents, and accomplishments through
+          samples of your best work, projects, and case studies.
+        </p>
+        <div class="pro-btn text-center mt-4">
+          <a href="project2.html" target="_blank" class="btn btn-primary">View more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ...........  skills section  ......... -->
+
+<div class="container py-3" id="skills">
+  <div class="row">
+      <div class="col-12">
+        <div class="skills-title text-center mt-5">
+          <h1 class="fw-bold">Skills</h1>
+        </div>
+      </div>
+    </div>
+  <div class="row mt-4">
+  <div class="col-sm-6 mb-6 mb-sm-0">
+    <div class="card skills-card">
+      <div class="card-body">
+        <h5 class="card-title fw-bold skill-heading">Technical Skills</h5>
+        <p class="card-text">
+          <ul class="skill-content">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JAVASCRIPT</li>
+            <li>Bootstrap</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-6">
+    <div class="card skills-card">
+      <div class="card-body">
+        <h5 class="card-title fw-bold skill-heading">Soft Skills</h5>
+        <p class="card-text">
+          <ul class="skill-content">
+            <li>Flexibility & Development</li>
+            <li>Communication</li>
+            <li>Solution-Oriented thinking</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--  ..........  resume download section  .......... -->
+
+<div class="container py-1" id="cv">
+  <div class="row py-1">
+      <div class="col-12">
+        <div class="cv-title text-center mt-5 mb-1">
+          <a href="media/Gopalakrishnan R_RESUME.pdf" download="" class="btn download-btn btn-primary" >Download my Resume</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- ..........  contact form section -->
+
+<section class="contact p-5 py-3" id="contact">
+  
+  <div class="container-lg py-4">
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="contact-title mb-3">
+          <h2 class="fw-bold fs-1">Contact</h2>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+  <form>
+  <div class="row justify-content-center">
+    <div class="col-lg-6 form-container">
+      <h3 class="sign-in text-center mt-3 fw-bold">Sign in</h3>
+      <div class="row mb-3 mt-5">
+        <label for="inputname" class="reg col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputname" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputEmail3" class="reg col-sm-2 col-form-label">Email:</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputPassword3" class="contact col-sm-2 col-form-label">Password:</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3" required>
+        </div>
+      </div>
+
+      <a href="#" class="text-end forget-create"><p>Forget Password</p></a>
+      
+      <div class="reg text-center mt-4">
+        <button type="submit" class="btn btn-success">Sign in</button>
+        <button type="reset" class="btn btn-danger">Clear</button>
+      </div>
+      <a href="mass1 contact.html" target="_blank" class="forget-create"><p class="text-center mt-3">Create Account</p></a>
+      <div class="social-icons-contact fs-2 mt-3 text-center">
+        <a href="https://www.linkedin.com/feed/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href=""><ion-icon name="logo-github"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+  </form>
+  </div>
+</section>
+<!-- .........  footer section  ......... -->
+
+<div class="container-fluid bg-dark">
+  <div class="card-footer text-center">
+    &copy; Copy Rights 2025. All Rights Reserved
+  </div>
+</div>
+
+
+</body>
+</html>
